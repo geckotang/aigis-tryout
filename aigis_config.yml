@@ -1,0 +1,18 @@
+# スタイルガイドの元になるCSSのディレクトリ
+source: ./src/css
+
+# スタイルガイドを出力するディレクトリ
+dest: ./build/styleguide
+
+# スタイルガイドで使用するファイル
+dependencies:
+  # スタイルガイドで読み込ませるCSS（プロジェクト用）
+  - ./src/css
+  # スタイルガイドで読み込ませるCSS（aigis用）
+  - ./styleguide_assets/aigis_assets
+
+# スタイルガイド用のテンプレートファイルのディレクトリ
+template_dir: ./styleguide_assets/template_hbs
+template_engine: hbs
+
+index: ./README.md

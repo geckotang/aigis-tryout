@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "scripts": {
+    "aigis" : "aigis",
+    "guide" : "aigis run -c ./aigis_config.yml"
+  },
+  "devDependencies": {
+    "node-aigis": "^1.1.1"
+  }
+}

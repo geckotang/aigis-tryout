@@ -1,0 +1,58 @@
+/*
+---
+name: 段落1
+category: Paragraph
+---
+
+```html
+<p class="my-paragraph">
+テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+</p>
+```
+
+*/
+
+.my-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #111;
+}
+
+
+/*
+---
+name: 段落2
+category: Paragraph
+---
+
+```html
+<p class="my-paragraph2">
+テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+</p>
+```
+
+*/
+
+.my-paragraph2 {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+}
+
+
+/*
+---
+name: Heading
+category: Heading
+---
+
+```html
+<h1 class="my-heading">テキストが入ります。</h1>
+```
+
+*/
+
+.my-heading {
+  font-size: 24px;
+  font-weight: bold;
+}

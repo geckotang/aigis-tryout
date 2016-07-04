@@ -1,0 +1,23 @@
+/*
+---
+name: 文字を大きくする
+category: Util/fontAdd
+---
+
+```html
+<div class="ex-fontAdd1">テキストが入ります。</div>
+<div class="ex-fontAdd2">テキストが入ります。</div>
+<div class="ex-fontAdd3">テキストが入ります。</div>
+```
+
+*/
+
+.ex-fontAdd1 {
+  font-size: 16px;
+}
+.ex-fontAdd2 {
+  font-size: 18px;
+}
+.ex-fontAdd3 {
+  font-size: 20px;
+}
